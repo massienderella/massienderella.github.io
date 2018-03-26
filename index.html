@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <title>Portfolio</title>
@@ -17,14 +18,14 @@
       <a href="#!" class="brand-logo">Logo</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#about">Acerca de mí</a></li>
-        <li><a href="#portfolio">Portafolio</a></li>
-        <li><a href="#contact">Contáctame</a></li>
+        <li><a href="#about" class="about-li">Acerca de mí</a></li>
+        <li><a href="#portfolio" class="portfolio-li">Portafolio</a></li>
+        <li><a href="#contact" class="contact-li">Contáctame</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="#about">Acerca de mí</a></li>
-        <li><a href="#portfolio">Portafolio</a></li>
-        <li><a href="#contact">Contáctame</a></li>
+        <li><a href="#about" class="about-li">Acerca de mí</a></li>
+        <li><a href="#portfolio" class="portfolio-li">Portafolio</a></li>
+        <li><a href="#contact" class="contact-li">Contáctame</a></li>
       </ul>
     </div>
   </nav>
@@ -37,13 +38,8 @@
   </div>
   </section>
 
-  <section class="about" id="about">
-    <div class="row">
-      <div class="col s12">
-        <h2 class="about-title center-align">Acerca de mí</h2>
-      </div>
-    </div>
-    <div class="row center-align">
+<section class="about valign-wrapper" id="about">
+  <div class="row center-align">
     <div class="col m4 s12">
       <img src="assets/img/cherry5.jpg" class="responsive-img profile circle" alt="">
     </div>
@@ -52,12 +48,15 @@
       <p class="center-align">Soy una front-end developer, actualmente viviendo en Santiago de Chile. Disfruto de codear al mismo tiempo que tomar en cuenta el diseño de interfaces y la experiencia del usuario. Me gusta el trabajo en equipo y resolver problemas de lógica. Me considero una persona bastante paciente y curiosa, siempre estoy buscando algo nuevo que hacer o aprender. En mi tiempo libre me gusta escuchar música, cocinar o armar maquetas. ¡Trabajemos juntos!</p>
     </div>
   </div>
-    <div class="row">
+</section>
+
+<section class="skills valign-wrapper">
+  <div class="container skills-container center-align">
+      <div class="row">
       <div class="col s12">
         <h2 class="skills-title center-align">Mis habilidades</h2>
       </div>
     </div>
-      <div class="container skills-container center-align">
     <div class="row">
       <div class="col s6 l6">
         <div class="skill-cont">
@@ -185,9 +184,9 @@
     <div class="col s12">
       <h2 class="contact-title center-align">Contáctame</h2>
       <p class="contact-info">Si deseas que trabajemos juntos, puedes encontrarme en las siguientes redes</p>
-      <a href="https://www.linkedin.com/in/massielams/"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://github.com/massienderella"><i class="fab fa-github"></i></a>
-      <a href="mailto:massiel.ams@gmail.com"><i class="far fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/massielams/"><i class="fab fa-linkedin-in icon"></i></a>
+      <a href="https://github.com/massienderella"><i class="fab fa-github icon"></i></a>
+      <a href="mailto:massiel.ams@gmail.com"><i class="far fa-envelope icon"></i></a>
     </div>
   </div>
 </section>
