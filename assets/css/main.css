@@ -1,4 +1,4 @@
-*{
+*, .row{
   padding: 0;
   margin: 0;
 }
@@ -12,13 +12,13 @@
 }
 
 .nav-bar{
-  background-color: transparent !important;
+  background-color: rgba(135,135,135,0.5);
   border-bottom: none !important;
   box-shadow: none !important;
 }
 
-.about-li, .portfolio-li, .contact-li{
-  color: grey;
+.about-li, .skills-li, .portfolio-li, .contact-li{
+  color: white;
 }
 
 h1, h2, h3, p{
@@ -53,6 +53,7 @@ h1, h2, h3, p{
   width: 100%;
   height: 90vh;
   background-image: linear-gradient(#e7c5c6, #ffffff);
+  text-align: center;
 }
 
 footer{
@@ -71,8 +72,30 @@ footer{
   color: grey;
 }
 
+.icon:hover{
+  color: white;
+}
+
 .skills{
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(#e7c5c6, #ffffff);
+  margin-bottom: 2%;
+}
+
+.project-description{
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+
+.site2, .site3, .site4, .site5{
+  margin-top: 5%;
+}
+
+.site5{
+  margin-bottom: 5%;
+}
+
+.contact-title{
+  margin-top: 10%;
 }
