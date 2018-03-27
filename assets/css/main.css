@@ -21,9 +21,14 @@
   color: white;
 }
 
-h1, h2, h3, p{
-  font-family: 'Handlee', cursive;
-  color: grey;
+h1, h2, h3{
+  font-family: 'Kalam', cursive;
+  color: black;
+}
+
+.titles{
+  text-shadow: 3px 3px #ffe4ec;
+  font-weight: bold;
 }
 
 .about{
@@ -68,8 +73,10 @@ footer{
 }
 
 .icon{
-  font-size: 30px;
+  font-size: 40px;
   color: grey;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
 .icon:hover{
@@ -125,4 +132,32 @@ footer{
 
 .logo-img{
   margin-top: 6%;
+}
+
+.applove-title{
+  text-shadow: 2px 2px #ef1d52;
+}
+
+.gunpla-title{
+  text-shadow: 2px 2px #ffc0cb;
+}
+
+.lyft-title{
+  text-shadow: 2px 2px #d902e6;
+}
+
+.bootstrap-title{
+  text-shadow: 2px 2px #18bb9c;
+}
+
+.darksky-title{
+  text-shadow: 2px 2px #99989e;
+}
+
+.contact-title{
+  text-shadow: 2px 2px #fae8e9;
+}
+
+.project-title, .skills-title, .greeting-title{
+  text-shadow: 2px 2px #e6b7b8;
 }
