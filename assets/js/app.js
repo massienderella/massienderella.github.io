@@ -1,29 +1,34 @@
-$( document ).ready(function(){
+$(document).ready(function(){
   $(".button-collapse").sideNav();
 });
 
-$(".about").smoove({
+$("#about").smoove({
   offset  : '20%',
 });
 
-$(".portfolio").smoove({
+$("#skills").smoove({
   offset  : '20%',
 });
 
-$("#skills-container").smoove({
-  offset  : '30%',
+$("#portfolio").smoove({
+  offset  : '20%',
+});
+
+$("#contact").smoove({
+  offset  : '20%',
 });
 
 $('.back-to-top').css({"display" : "none"});
-jQuery(document).ready(function() {
-var offset = 250; 
-var duration = 300; 
+
+$(document).ready(function() {
+  var offset = 250; 
+  var duration = 300; 
 jQuery(window).scroll(function() { 
-if (jQuery(this).scrollTop() > offset) {
+  if (jQuery(this).scrollTop() > offset) {
 jQuery('.back-to-top').fadeIn(duration);
-} else { 
+  } else { 
 jQuery('.back-to-top').fadeOut(duration); 
-} 
+  } 
 });
  
 jQuery('.back-to-top').click(function(event) { 
