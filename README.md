@@ -14,6 +14,6 @@
 
 ![Paleta](https://i.imgur.com/zEAICfb.jpg)
 
-## Diseño preliminar
+### Diseño preliminar
 
 ![Preliminar](https://i.imgur.com/1heI4qe.jpg)
