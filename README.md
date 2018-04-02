@@ -1,5 +1,7 @@
 # Diseño portafolio Massienderella
 
+![Final](https://i.imgur.com/k19PctL.png)
+
 ## Paleta de colores (orden de izquierda a derecha)
 
 + #B55C80 (Ciruela)
